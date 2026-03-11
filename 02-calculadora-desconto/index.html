@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Calculadora de Desconto</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="./app.js"></script>
+  <script src="./app.js"defer></script>
 </head>
 
 <body>
@@ -27,8 +27,9 @@
 
       <button onclick="calcularDesconto()">Calcular</button>
 
-      <div id="resultadoEconomizado" id="resultadoFinal" class="resultado">
-        O resultado aparecerá aqui
+      <div class="resultado">
+        <p>Valor economizado: R$ <span id="resultadoEconomizado">--</span></p>
+        <p>Preço final: R$ <span id="resultadoFinal">--</span></p>
       </div>
 
     </div>

@@ -109,6 +109,14 @@ button:hover {
   justify-content: center;
 }
 
+.resultado p:first-child {
+  margin: 10px
+}
+
+.resultado-verde{
+  border-color: #14532d;
+} 
+
 footer {
   display: flex;
   align-items: flex-end;
