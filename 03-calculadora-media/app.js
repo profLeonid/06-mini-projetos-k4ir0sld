@@ -5,7 +5,7 @@ const calcularMedia = (n1, n2, n3) => Number(n1 + n2 + n3) / 3
 function statusAluno (media) {
     if(media >= 7){
         return 'Aprovado'
-    }else if(media > 5 & media < 7){
+    }else if(media > 5){
         return 'Recuperação'
     }else{
         return 'Reprovado'
